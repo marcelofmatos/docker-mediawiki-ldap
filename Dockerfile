@@ -1,4 +1,4 @@
-FROM kristophjunge/mediawiki:latest 
+FROM kristophjunge/mediawiki:1.27 
 
 RUN apt-get update \
     && apt-get install libldb-dev libldap2-dev \
